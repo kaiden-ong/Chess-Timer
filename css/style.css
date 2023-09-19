@@ -1,0 +1,218 @@
+html, body {
+  height: 100%;
+  width: 100%;
+} 
+
+/* Navbar */
+.nav-link {
+    font-weight: 700;
+    font-size: 1.3rem;
+    color:rgb(21, 26, 41);
+}
+
+.nav-item {
+    padding-left: 1rem;
+}
+
+.bg-custom {
+    background-color: rgb(34, 150, 243);
+}
+
+.navimg {
+    height: 50px;
+    padding-left: 1.5rem;
+}
+
+/* Timer */
+.center-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 87vh;
+}
+
+.content {
+    width: 100%;
+}
+
+.content h1 {
+    font-size: 40px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.timers {
+    padding-bottom: 1rem;
+}
+
+.timers h2 {
+    font-size: 20px;
+}
+
+.pt2 {
+    padding: 0;
+    margin: 0;
+}
+
+.timers p {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.card-body {
+    padding: 1rem 0;
+}
+
+button {
+    width: 50%;
+}
+
+.green {
+    background-color: green;
+}
+
+.white {
+    background-color: white;
+}
+
+.refresh {
+    padding-top: 10px;
+    padding-bottom: 1rem;
+}
+
+.card {
+    border-width: thick;
+    border-radius: 10px;
+}
+
+/* Homepage */
+.carousel-bg {
+    background-color: rgba(108, 122, 137, .85);
+    opacity: 1;
+}
+
+.home-info {
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 3;
+}
+
+.carousel-caption p {
+    font-size: large;
+    font-weight: 600;
+}
+
+.bg {
+    background-color: bisque;
+}
+
+@media (min-width: 768px) {
+    .content h1 {
+        font-size: 50px;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+    
+    .timers h2 {
+        font-size: 35px;
+    }
+
+    .pt1 {
+        padding-top: 1rem;
+    }
+
+    .pt2 {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .timers p {
+        font-size: 30px;
+        font-weight: 500;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .card-body {
+        padding: 1rem 0;
+    }
+
+    .home-center-screen {
+        align-items: center;
+        min-height: 87vh;
+    }
+}
+
+@media (min-width: 992px) {
+    .content h1 {
+        font-size: 50px;
+        padding-bottom: 1rem;
+    }
+    
+    .timers h2 {
+        font-size: 40px;
+    }
+
+    .pt1 {
+        padding-top: 1rem;
+    }
+
+    .pt2 {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .timers p {
+        font-size: 35px;
+        font-weight: 500;
+        margin-top: 1rem;
+    }
+    
+    .card-body {
+        padding: 2rem 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .content h1 {
+        font-size: 60px;
+        padding-bottom: 2rem;
+    }
+    
+    .timers h2 {
+        font-size: 50px;
+    }
+
+    .pt1 {
+        padding-top: 1rem;
+    }
+
+    .pt2 {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .timers p {
+        font-size: 42px;
+        font-weight: 500;
+        margin-top: 2rem;
+    }
+    
+    .card-body {
+        padding: 3rem 0;
+    }
+}
+
+@media (min-width: 1800px) {
+    .center-screen {
+        align-items: flex-start;
+    }
+
+    .content h1 {
+        padding-top: 3rem;
+    }
+
+    
+}
